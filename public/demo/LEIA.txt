@@ -1,0 +1,1 @@
+Ilustrações geradas por scripts/generate-demo-images.mjs para a vitrine demo. Troque por fotos reais de cestas quando existirem.
