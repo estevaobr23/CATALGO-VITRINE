@@ -484,17 +484,6 @@ export default function SalesPage() {
               text={`Uma única cesta de ${formatCents(ADICIONAIS_BASE)} paga o plano Profissional ${basketsToPay} vezes. E é ${offer.paymentNote.toLowerCase()}.`}
             />
 
-            <div className="rv rv-pop mx-auto mt-10 max-w-md">
-              <Image
-                src="/marketing/mockup-oferta-completa.webp"
-                alt="CestaVitrine: painel, vitrine e pedido no celular e no tablet"
-                width={1600}
-                height={1600}
-                sizes="(min-width: 768px) 28rem, 90vw"
-                className="h-auto w-full drop-shadow-[0_30px_40px_rgba(0,0,0,.4)]"
-              />
-            </div>
-
             <div className="mt-10 grid items-center gap-8 md:grid-cols-[0.85fr_1.15fr]">
               {/* PROFISSIONAL — o recomendado, à direita / depois do Iniciante */}
               <div className="rv rv-pop relative order-2 rounded-[2rem] border-[3px] border-[var(--lp-alert)] bg-white p-6 text-[var(--lp-ink)] shadow-[0_30px_70px_-20px_rgba(0,0,0,.55)] sm:p-8">
